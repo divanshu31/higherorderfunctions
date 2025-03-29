@@ -1,0 +1,114 @@
+/* * {
+    margin: 0;
+    padding: 0;
+} */
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #fff;
+    color: #333;
+}
+
+header{
+    background-color: rgb(255, 122, 81);
+    text-align: center;
+    padding: 1px;
+}
+header h1{
+    color: navy;
+}
+nav ul{
+    list-style: none;
+    padding: 10px;
+}
+nav ul li{
+    display: inline;
+    margin: 0 15px;
+}
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section{
+    padding: 20px 0 10px 15px;
+    margin: auto;
+}
+h2{
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: black;
+}
+.profile-img{
+    width: 150px;
+    height: 150px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.project1{
+    border: 1px solid #ccc;
+    padding: 15px;
+    border-radius: 10px;
+}
+.project2{
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    padding: 15px;
+    border-radius: 10px;
+}
+.project1 ul{
+    list-style-type: disc;
+    margin-left: 5px;
+}
+.project2 ul{
+    list-style-type: disc;
+    margin-left: 5px;
+}
+.project-link{
+    color: blue;
+    text-decoration: underline;
+    display: block;
+    margin-top: 10px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+}
+
+form label {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+form button {
+    margin-top: 10px;
+    background-color: #FF6347;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+footer {
+    background-color: #FF6347;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+    color: white;
+}
+footer a {
+    color: white;
+    text-decoration: underline;
+}
+.foot{
+    text-decoration: underline;
+    color: blue;
+}
